@@ -1,15 +1,35 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Open+Sans&display=swap" rel="stylesheet"> 
+
 	</head>
 	<body>
-		<p>
-			<%= message %>
-		</p>
-		<form>
-			<input type="text" name="inputCipher">
-			<input type="text" name="shiftFactor">
-			<input type="submit" value="Encode">
-		</form>
+		<div class="main-body">
+			<h1>Caeser Cipher</h1>
+		
+		  <p>The Caesar Cipher is one of the earliest known and <br>
+			simplest ciphers. It is a type of substitution cipher in <br>
+			which each letter in the text is 'shifted' a certain <br>
+		  number of places down the alphabet. For example, with a <br>
+		  shift of 1, A would be replaced by B, B would become C, <br>
+		  and so on.</p>
+
+		  <hr>
+
+			<h3>Enter a message to be ciphered and a number: </h3>
+			
+			<form>
+				<input type="text" class="message" placeholder="Your message" name="inputCipher">
+				<input type="number" class="shift" placeholder="Shift by" name="shiftFactor"> <br>
+				<input type="submit" class="submit" value="Encode">
+			</form>
+
+			<h3>Your Encoded Message: </h3>
+			<p>
+				<%= message %>
+			</p>
+		</div>
 	</body>
 </html>

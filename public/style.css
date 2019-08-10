@@ -1,9 +1,58 @@
 body {
-	background-color: blue;
+	background-color: #7a0023;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div {
+	margin-top: 4%;
+	text-align: center;
 }
 
 input {
-	border: black solid 1px;
-	color: red;
-	background-color: red;
+	margin-top: 10px;
+	margin-left: 7px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+hr {
+	width: 20%;
+	height: 2px;
+  color: #0c905d;
+  background-color: #00c78e;
+  border: none;
+  margin-bottom: 20px;
+}
+
+h1 {
+	font-family: 'Beth Ellen', cursive;
+	font-size: 28pt;
+	color: white;
+}
+
+h3{
+	color: white;
+}
+
+.submit {
+	background-color: #00c78e;
+	color: white;
+	font-weight: bold;
+	width: 15%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	color: #DAF7A6;
+	font-size: 12pt;
+}
+
+.message {
+	width: 30%;
+}
+
+.shift {
+	width: 7%;
 }
