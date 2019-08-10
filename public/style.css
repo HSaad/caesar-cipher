@@ -1,0 +1,9 @@
+body {
+	background-color: blue;
+}
+
+input {
+	border: black solid 1px;
+	color: red;
+	background-color: red;
+}
